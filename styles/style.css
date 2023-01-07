@@ -189,3 +189,33 @@ section {
     margin-top: 50px;
     text-align: center;
 }
+
+
+/* contact styles */
+
+.contract {
+    display: flex;
+    gap: 100px;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+}
+
+.contract .section-title {
+    text-align: left;
+}
+
+.contract input[type="text"],
+input[type="email"] textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px;
+}
+
+input {
+    height: 64px;
+}
+
+.contract a {
+    text-decoration: none;
+}
